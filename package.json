@@ -1,0 +1,13 @@
+{
+	"type": "module",
+	"scripts": {
+		"merge:prs": "node ./scripts/mergeDependabotPRs.js",
+		"close:prs": "node ./scripts/closeAllPRsForRepo.js",
+		"read:notifications": "node ./scripts/readNotifications.js"
+	},
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"node-fetch": "^3.0.0",
+		"parse-link-header": "^1.0.1"
+	}
+}
