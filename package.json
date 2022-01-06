@@ -8,6 +8,6 @@
 	"dependencies": {
 		"dotenv": "^10.0.0",
 		"node-fetch": "^3.0.0",
-		"parse-link-header": "^1.0.1"
+		"parse-link-header": "^2.0.0"
 	}
 }
